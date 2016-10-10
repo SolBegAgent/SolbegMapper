@@ -228,7 +228,7 @@ class LinkFactory
      * Creates link from configuration array.
      * 
      * @param array $config link's configuration
-     * @return \App\Mappers\Base\Links\AbstractLink the created link object
+     * @return AbstractLink the created link object
      * @throws \InvalidArgumentException
      * @throws \UnexpectedValueException
      */

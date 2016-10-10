@@ -54,12 +54,12 @@ class One2One extends AbstractLink
     protected $deleteOnUnset = true;
 
     /**
-     * @var \App\Mappers\Base\AbstractMapper|null|boolean
+     * @var \Bicycle\Mapper\AbstractMapper|null|boolean
      */
     private $oldMapper = false;
 
     /**
-     * @var \App\Mappers\Base\AbstractMapper|null|boolean
+     * @var \Bicycle\Mapper\AbstractMapper|null|boolean
      */
     private $value = false;
 
@@ -83,7 +83,7 @@ class One2One extends AbstractLink
     }
 
     /**
-     * @return \App\Mappers\Base\AbstractMapper|null
+     * @return \Bicycle\Mapper\AbstractMapper|null
      */
     protected function getOldMapper()
     {
@@ -110,7 +110,7 @@ class One2One extends AbstractLink
 
     /**
      * @inheritdoc
-     * @return \App\Mappers\Base\AbstractMapper|null
+     * @return \Bicycle\Mapper\AbstractMapper|null
      */
     public function getValue($attribute = null)
     {
@@ -171,7 +171,7 @@ class One2One extends AbstractLink
 
     /**
      * Attaches linked to the owner.
-     * @param \App\Mappers\Base\AbstractMapper $mapper
+     * @param \Bicycle\Mapper\AbstractMapper $mapper
      * @return boolean whether the attaching proccess has been successfully done
      * @throws \LogicException
      */
@@ -206,7 +206,7 @@ class One2One extends AbstractLink
 
     /**
      * Detaches linked mapper from the owner.
-     * @param \App\Mappers\Base\AbstractMapper $mapper
+     * @param \Bicycle\Mapper\AbstractMapper $mapper
      * @return boolean whether the dettaching proccess has been successfully done
      * @throws \LogicException
      */
@@ -256,7 +256,7 @@ class One2One extends AbstractLink
 
     /**
      * @param \Illuminate\Database\Eloquent\Model|null $model
-     * @return \App\Mappers\Base\AbstractMapper
+     * @return \Bicycle\Mapper\AbstractMapper
      */
     protected function createMapper($model = null)
     {
