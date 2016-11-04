@@ -41,7 +41,7 @@ class Belongs2One extends AbstractLink
     protected $processDeletion = true;
 
     /**
-     * @var \Bicycle\Mapper\AbstractMapper|null
+     * @var \Solbeg\Mapper\AbstractMapper|null
      */
     private $value;
 
@@ -105,7 +105,7 @@ class Belongs2One extends AbstractLink
 
     /**
      * @inheritdoc
-     * @return \Bicycle\Mapper\AbstractMapper
+     * @return \Solbeg\Mapper\AbstractMapper
      */
     public function getValue($attribute = null)
     {
@@ -190,7 +190,7 @@ class Belongs2One extends AbstractLink
 
     /**
      * @param \Illuminate\Database\Eloquent\Model|null $model
-     * @return \Bicycle\Mapper\AbstractMapper
+     * @return \Solbeg\Mapper\AbstractMapper
      */
     protected function createMapper($model = null)
     {

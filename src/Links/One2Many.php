@@ -49,12 +49,12 @@ class One2Many extends AbstractLink
     protected $processDeletion = true;
 
     /**
-     * @var \Bicycle\Mapper\AbstractMapper[]|null
+     * @var \Solbeg\Mapper\AbstractMapper[]|null
      */
     private $values;
 
     /**
-     * @var \Bicycle\Mapper\AbstractMapper[]
+     * @var \Solbeg\Mapper\AbstractMapper[]
      */
     private $deletedValues = [];
 
@@ -104,7 +104,7 @@ class One2Many extends AbstractLink
 
     /**
      * @inheritdoc
-     * @return \Bicycle\Mapper\AbstractMapper[] indexed by model keys.
+     * @return \Solbeg\Mapper\AbstractMapper[] indexed by model keys.
      */
     public function getValue($attribute = null)
     {
@@ -332,7 +332,7 @@ class One2Many extends AbstractLink
         }
 
         $mappers = array_replace($this->deletedValues, $this->getValue());
-        /* @var $mappers \Bicycle\Mapper\AbstractMapper[] */
+        /* @var $mappers \Solbeg\Mapper\AbstractMapper[] */
         foreach ($mappers as $mapper)
         {
             $result &= $mapper->delete(false) !== false;
@@ -346,7 +346,7 @@ class One2Many extends AbstractLink
 
     /**
      * @param \Illuminate\Database\Eloquent\Model|null $model
-     * @return \Bicycle\Mapper\AbstractMapper
+     * @return \Solbeg\Mapper\AbstractMapper
      */
     protected function createMapper($model = null)
     {
