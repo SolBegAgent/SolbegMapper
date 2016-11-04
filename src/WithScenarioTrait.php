@@ -1,6 +1,6 @@
 <?php
 
-namespace Bicycle\Mapper;
+namespace Solbeg\Mapper;
 
 /**
  * WithScenarioTrait adds scenario property in your mapper.

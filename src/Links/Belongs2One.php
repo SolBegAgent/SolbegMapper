@@ -1,6 +1,6 @@
 <?php
 
-namespace Bicycle\Mapper\Links;
+namespace Solbeg\Mapper\Links;
 
 use Illuminate\Database\Eloquent\Relations;
 

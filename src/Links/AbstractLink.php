@@ -1,11 +1,11 @@
 <?php
 
-namespace Bicycle\Mapper\Links;
-
-use Bicycle\Mapper\AbstractMapper;
+namespace Solbeg\Mapper\Links;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Arr;
+
+use Solbeg\Mapper\AbstractMapper;
 
 /**
  * AbstractLink is the base abstract class for all link types.

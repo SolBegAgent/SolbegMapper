@@ -1,6 +1,6 @@
 <?php
 
-namespace Bicycle\Mapper;
+namespace Solbeg\Mapper;
 
 /**
  * SimpleMapper is useful when you do not want create new mapper class for any simple model.
