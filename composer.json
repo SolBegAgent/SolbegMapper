@@ -1,0 +1,23 @@
+{
+    "name": "bicycle/mapper",
+    "description": "Laravel extension. Wrapper for your models for working with hierarchical structure and/or mapping one attributes to another.",
+    "keywords": ["laravel", "mapper", "model", "Eloquent"],
+    "authors": [
+        {
+            "name": "Alexey Sejnov",
+            "email": "alexey.sejnov@solbeg.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/container": "5.2.*|5.3.*",
+        "illuminate/contracts": "5.2.*|5.3.*",
+        "illuminate/database": "5.2.*|5.3.*",
+        "illuminate/events": "5.2.*|5.3.*",
+        "illuminate/support": "5.2.*|5.3.*"
+    },
+    "autoload": {
+        "psr-4": { "Bicycle\\Mapper\\": "src/" }
+    }
+}
