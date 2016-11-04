@@ -1,12 +1,12 @@
 <?php
 
-namespace Bicycle\Mapper\Links;
-
-use Bicycle\Mapper\AbstractMapper;
-use Bicycle\Mapper\SimpleMapper;
+namespace Solbeg\Mapper\Links;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Arr;
+
+use Solbeg\Mapper\AbstractMapper;
+use Solbeg\Mapper\SimpleMapper;
 
 /**
  * LinkFactory is used for creating link objects.

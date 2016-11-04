@@ -1,6 +1,6 @@
 <?php
 
-namespace Bicycle\Mapper\Exceptions;
+namespace Solbeg\Mapper\Exceptions;
 
 /**
  * UnknownPropertyException

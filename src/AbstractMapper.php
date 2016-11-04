@@ -1,6 +1,6 @@
 <?php
 
-namespace Bicycle\Mapper;
+namespace Solbeg\Mapper;
 
 use ArrayAccess;
 use JsonSerializable;
